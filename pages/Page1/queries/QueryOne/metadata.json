@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query2",
+    "name": "QueryOne",
     "datasource": {
       "name": "users",
       "pluginId": "postgres-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "select * from",
+      "body": "SELECT * FROM <<your_table_name>> LIMIT 10;\n\n-- Please enter a valid table name and hit RUN",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -35,9 +35,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-08T13:26:20Z"
   },
-  "id": "Page1_Query2",
+  "id": "Page1_QueryOne",
   "deleted": false,
-  "gitSyncId": "654b7c3b5e8db008290da7fb_654b7cf15e8db008290da806"
+  "gitSyncId": "64cb961e24a388375f405a56_64cb96a6c68ac0697d793e19"
 }

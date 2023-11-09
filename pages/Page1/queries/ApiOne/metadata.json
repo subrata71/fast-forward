@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "ApiOne",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -59,9 +59,10 @@
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
-    "userPermissions": []
+    "userPermissions": [],
+    "createdAt": "2023-11-08T13:26:20Z"
   },
-  "id": "Page1_Api1",
+  "id": "Page1_ApiOne",
   "deleted": false,
   "gitSyncId": "654b82262a698e3c55c59895_654b82392a698e3c55c5989b"
 }
